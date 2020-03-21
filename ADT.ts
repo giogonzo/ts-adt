@@ -57,7 +57,7 @@
   * ```ts
   * declare const foo: Option<string>
   *
-  * matchC(foo)({
+  * matchI(foo)({
   *   none: () => 'none',
   *   some: ({value}) => 'some'
   * })
